@@ -1,4 +1,5 @@
 # Patterns Output:
+```
 Pattern 1:
 *
 **
@@ -111,3 +112,4 @@ Pattern 8:
 4 4 4 4 4 4 4 4 4 
 
 Process finished with exit code 0
+```
