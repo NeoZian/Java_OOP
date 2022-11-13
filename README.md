@@ -113,3 +113,27 @@ Pattern 8:
 
 Process finished with exit code 0
 ```
+## Substring in Java
+A part of String is called substring. In other words, substring is a subset of another String. Java String class provides the built-in substring() method that extract a substring from the given string by using the index values passed as an argument. In case of substring() method startIndex is inclusive and endIndex is exclusive.
+```
+public String substring(int startIndex)
+public String substring(int startIndex, int endIndex)
+```
+### startIndex: inclusive
+### endIndex: exclusive
+
+```
+public class TestSubstring{    
+ public static void main(String args[]){    
+ String s="SachinTendulkar";    
+ System.out.println("Original String: " + s);  
+ System.out.println("Substring starting from index 6: " +s.substring(6));//Tendulkar    
+ System.out.println("Substring starting from index 0 to 6: "+s.substring(0,6)); //Sachin  
+ }  
+}    
+```
+### OutPut
+Original String: SachinTendulkar
+Substring starting from index 6: Tendulkar
+Substring starting from index 0 to 6: Sachin
+
