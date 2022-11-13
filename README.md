@@ -133,7 +133,8 @@ public class TestSubstring{
 }    
 ```
 ### OutPut
+```
 Original String: SachinTendulkar
 Substring starting from index 6: Tendulkar
 Substring starting from index 0 to 6: Sachin
-
+```
